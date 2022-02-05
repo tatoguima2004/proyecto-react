@@ -1,11 +1,11 @@
-
+import './main.css';
 import React from 'react';
-import zomboid from './imagenes/zomboid.png'
+import zomboid from "../src/imagenes/zomboid.png"
 
 const Inicio = () => {
     return(
         <div><main className="contenedor">
-        <img src="zomboid" alt=""/>
+        <img src={zomboid} alt=""/>
         <p>Project Zomboid es un entorno abierto infestado de zombis. Hace una pregunta simple: ¿cómo morirás?<br></br>
 
         En las ciudades de Muldraugh y West Point, los sobrevivientes deben saquear casas, construir defensas y hacer todo lo posible para retrasar día a día su inevitable muerte. No llega ayuda: su supervivencia continua depende de su propia astucia, suerte y habilidad para evadir una horda implacable.</p>
