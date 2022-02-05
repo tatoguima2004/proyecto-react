@@ -7,21 +7,20 @@ import menulogo from '../src/imagenes/menulogo.jpg';
 const Header = () => {
     return(
     <div>
-                <div className="contenedornav">
+        <div className="contenedornav">
                 <Link to="/" className="logo"><img src={logo} alt="" /></Link>
-            <input type="checkbox" id="menu-button" />
-            <label for="menu-button" className="menu-logo"><img src={menulogo}/></label>
-            <nav className="navegador">
-            <ul className="show">
+                    <input type="checkbox" id="menu-button" />
+                    <label for="menu-button" className="menu-logo"><img src={menulogo}/></label>
+                    <nav className="navegador">
+                    <ul className="show">
                 <li><Link to="/foro">Foro</Link></li>
                 <li><Link to="/guias">Guias</Link></li>
                 <li><Link to="/login">Iniciar Sesion</Link></li>
                 <li><Link to="/singup">Crear Cuenta</Link></li>
             </ul>
-        </nav>
-            </div>
+            </nav>
+        </div>
     </div>
-
 )
 }
 
